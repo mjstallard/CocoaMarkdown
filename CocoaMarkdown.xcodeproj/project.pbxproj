@@ -176,6 +176,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		650638391C78004800C2E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF1551BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOS";
+		};
+		6506383B1C78004800C2E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F54891A68663300CC7448 /* Nimble.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F5DF15E1BDCA0CE00C3A531;
+			remoteInfo = "Nimble-tvOSTests";
+		};
+		650638461C78004800C2E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CD51BDCA4AB005013A2;
+			remoteInfo = "Quick-tvOS";
+		};
+		650638481C78004800C2E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CDE1BDCA4AB005013A2;
+			remoteInfo = "Quick-tvOSTests";
+		};
+		6506384A1C78004800C2E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F548C1A68663400CC7448 /* Quick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F118CF01BDCA4BB005013A2;
+			remoteInfo = "QuickFocused-tvOSTests";
+		};
 		720DA57F1A68A00300DD05AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 729F53D11A68641300CC7448 /* Project object */;
@@ -305,6 +340,7 @@
 		06D9F8751A70465700C00B67 /* CMHTMLUnderlineTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHTMLUnderlineTransformer.h; sourceTree = "<group>"; };
 		06D9F8761A70465700C00B67 /* CMHTMLUnderlineTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHTMLUnderlineTransformer.m; sourceTree = "<group>"; };
 		30A07BCB1B5545A50097CEF1 /* render.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = render.c; path = External/cmark/src/render.c; sourceTree = "<group>"; };
+		650638321C78004800C2E2E6 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		722E33DE1A68E7E4004DE919 /* CMAttributeRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAttributeRun.h; sourceTree = "<group>"; };
 		722E33DF1A68E7E4004DE919 /* CMAttributeRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAttributeRun.m; sourceTree = "<group>"; };
 		722E33E41A68E86B004DE919 /* CMTextAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTextAttributes.h; sourceTree = "<group>"; };
@@ -563,6 +599,7 @@
 				72C17A901A6EBA1B00212F17 /* HTML */,
 				729F53DD1A68641400CC7448 /* Supporting Files */,
 				725116061A6973B200337419 /* Frameworks */,
+				650638321C78004800C2E2E6 /* module.modulemap */,
 			);
 			path = CocoaMarkdown;
 			sourceTree = "<group>";
@@ -642,6 +679,8 @@
 				729F54961A68663400CC7448 /* NimbleTests.xctest */,
 				729F54981A68663400CC7448 /* Nimble.framework */,
 				729F549A1A68663400CC7448 /* NimbleTests.xctest */,
+				6506383A1C78004800C2E2E6 /* Nimble.framework */,
+				6506383C1C78004800C2E2E6 /* NimbleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -655,6 +694,9 @@
 				729F54A81A68663400CC7448 /* Quick.framework */,
 				729F54AA1A68663400CC7448 /* Quick-iOSTests.xctest */,
 				729F54AC1A68663400CC7448 /* QuickFocused-iOSTests.xctest */,
+				650638471C78004800C2E2E6 /* Quick.framework */,
+				650638491C78004800C2E2E6 /* Quick-tvOSTests.xctest */,
+				6506384B1C78004800C2E2E6 /* QuickFocused-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -993,6 +1035,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		6506383A1C78004800C2E2E6 /* Nimble.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Nimble.framework;
+			remoteRef = 650638391C78004800C2E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6506383C1C78004800C2E2E6 /* NimbleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = NimbleTests.xctest;
+			remoteRef = 6506383B1C78004800C2E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		650638471C78004800C2E2E6 /* Quick.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quick.framework;
+			remoteRef = 650638461C78004800C2E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		650638491C78004800C2E2E6 /* Quick-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Quick-tvOSTests.xctest";
+			remoteRef = 650638481C78004800C2E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6506384B1C78004800C2E2E6 /* QuickFocused-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "QuickFocused-tvOSTests.xctest";
+			remoteRef = 6506384A1C78004800C2E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		729F54941A68663400CC7448 /* Nimble.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -1411,6 +1488,7 @@
 				INFOPLIST_FILE = CocoaMarkdown/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/CocoaMarkdown/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SKIP_INSTALL = YES;
@@ -1435,6 +1513,7 @@
 				INFOPLIST_FILE = CocoaMarkdown/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/CocoaMarkdown/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SKIP_INSTALL = YES;
@@ -1515,6 +1594,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "$(SRCROOT)/CocoaMarkdown/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SDKROOT = macosx;
@@ -1544,6 +1624,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "$(SRCROOT)/CocoaMarkdown/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.indragie.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = CocoaMarkdown;
 				SDKROOT = macosx;
